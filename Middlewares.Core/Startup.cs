@@ -33,7 +33,7 @@ namespace Middlewares.Core
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCustomMiddleware();
             app.UseMvc();
         }
     }
